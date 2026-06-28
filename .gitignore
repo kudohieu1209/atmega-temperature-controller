@@ -1,0 +1,30 @@
+# CodeVisionAVR / build artifacts
+Exe/
+Obj/
+List/
+*.hex
+*.eep
+*.rom
+*.obj
+*.cof
+*.elf
+*.map
+*.lst
+*.lss
+*.sym
+*.bin
+*.tmp
+*.bak
+*.~*
+*.prj.*
+
+# Atmel Studio / AVR-GCC
+Debug/
+Release/
+*.o
+*.d
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.vscode/
