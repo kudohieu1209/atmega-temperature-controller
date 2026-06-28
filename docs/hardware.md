@@ -1,5 +1,9 @@
 # Phần cứng & Ghi chú kỹ thuật
 
+## Sơ đồ nguyên lý
+Xem sơ đồ mô phỏng Proteus tại [images/proteus-schematic.png](images/proteus-schematic.png):
+các khối vi điều khiển, hiển thị (LCD1602), cảm biến (LM35), nguồn và relay.
+
 ## Khối nguồn / vi điều khiển
 - MCU: **ATmega16** (kit AVR hỗ trợ cả ATmega32 cùng chân đế).
 - Thạch anh ngoài tùy chọn; cấu hình tần số khớp với `delay.h`.
