@@ -39,6 +39,12 @@ Sơ đồ gồm các khối: vi điều khiển (ATmega16 + thạch anh), hiển
 biến trở chỉnh tương phản), cảm biến (LM35), nguồn (công tắc + LED báo) và relay
 (2 relay 12V kích qua transistor 2N2222 cho quạt/đèn).
 
+File thiết kế PCB/sơ đồ nguyên lý gốc (Altium Designer) nằm trong
+[`altium_schematic/`](altium_schematic/):
+
+- `Sheet2.SchDoc` — sơ đồ nguyên lý
+- `PCB2.PcbDoc` — layout mạch in
+
 ## Cấu trúc thư mục
 
 ```
@@ -46,10 +52,13 @@ atmega-temperature-controller/
 ├── README.md
 ├── src/
 │   └── main.c                  # Mã nguồn chính
-└── docs/
-    ├── hardware.md             # Mô tả phần cứng & ghi chú
-    └── images/
-        └── proteus-schematic.png   # Sơ đồ nguyên lý Proteus
+├── docs/
+│   ├── hardware.md             # Mô tả phần cứng & ghi chú
+│   └── images/
+│       └── proteus-schematic.png   # Sơ đồ nguyên lý Proteus
+└── altium_schematic/
+    ├── Sheet2.SchDoc            # Sơ đồ nguyên lý (Altium Designer)
+    └── PCB2.PcbDoc              # Layout PCB (Altium Designer)
 ```
 
 ## Biên dịch
